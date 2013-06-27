@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+	<widget xmlns = "http://www.w3.org/ns/widgets"
+		xmlns:gap = "http://phonegap.com/ns/1.0"
+		id = "com.doblevista.chrysler"
+		version = "1.0.1"
+		versionCode = "1">
+
+    <name>JEEP COMPASS</name>
+
+    <description>
+        Salon Internacional del Automovil
+    </description>
+
+    <author href="http://www.doblevista.com" email="info@doblevista.com">
+        Doblevista SRL
+	</author>
+        
+    
+                
+    <!-- GENERAL PREFERENCES -->
+        
+    <preference name="phonegap-version" value="2.7.0" />
+    <preference name="orientation" value="landscape" />
+    <preference name="target-device" value="universal" />
+    <preference name="fullscreen" value="true" /> <!-- remove the upper bar on iOS and Android -->
+        
+    <!-- iOS PREFERENCES -->
+        
+    <preference name="webviewbounce" value="false" />
+    <preference name="prerendered-icon" value="true" />
+    <preference name="stay-in-webview" value="false" />
+    <preference name="ios-statusbarstyle" value="black-opaque" />
+    <preference name="detect-data-types" value="false" />
+    <preference name="exit-on-suspend" value="false" />
+    <preference name="show-splash-screen-spinner" value="true" />
+    <preference name="auto-hide-splash-screen" value="true" /> <!-- if set to false, the splash screen must be hidden using a JavaScript API -->
+        
+    <!-- PHONEGAP API FEATURES PREFERENCES -->
+        
+    <preference name="permissions" value="none"/>
+
+</widget>
